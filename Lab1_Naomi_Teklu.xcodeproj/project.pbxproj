@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1219C9202D5EAB700029B48F /* Lab1_Naomi_TekluApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1219C91F2D5EAB700029B48F /* Lab1_Naomi_TekluApp.swift */; };
+		1219C9222D5EAB700029B48F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1219C9212D5EAB700029B48F /* ContentView.swift */; };
+		1219C9242D5EAB710029B48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1219C9232D5EAB710029B48F /* Assets.xcassets */; };
+		1219C9272D5EAB710029B48F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1219C9262D5EAB710029B48F /* Preview Assets.xcassets */; };
+		1219C9312D5EAB720029B48F /* Lab1_Naomi_TekluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1219C9302D5EAB720029B48F /* Lab1_Naomi_TekluTests.swift */; };
+		1219C93B2D5EAB720029B48F /* Lab1_Naomi_TekluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1219C93A2D5EAB720029B48F /* Lab1_Naomi_TekluUITests.swift */; };
+		1219C93D2D5EAB720029B48F /* Lab1_Naomi_TekluUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1219C93C2D5EAB720029B48F /* Lab1_Naomi_TekluUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1219C92D2D5EAB720029B48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1219C9142D5EAB700029B48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1219C91B2D5EAB700029B48F;
+			remoteInfo = Lab1_Naomi_Teklu;
+		};
+		1219C9372D5EAB720029B48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1219C9142D5EAB700029B48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1219C91B2D5EAB700029B48F;
+			remoteInfo = Lab1_Naomi_Teklu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1219C91C2D5EAB700029B48F /* Lab1_Naomi_Teklu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab1_Naomi_Teklu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1219C91F2D5EAB700029B48F /* Lab1_Naomi_TekluApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_Naomi_TekluApp.swift; sourceTree = "<group>"; };
+		1219C9212D5EAB700029B48F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1219C9232D5EAB710029B48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1219C9262D5EAB710029B48F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1219C92C2D5EAB720029B48F /* Lab1_Naomi_TekluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab1_Naomi_TekluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1219C9302D5EAB720029B48F /* Lab1_Naomi_TekluTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_Naomi_TekluTests.swift; sourceTree = "<group>"; };
+		1219C9362D5EAB720029B48F /* Lab1_Naomi_TekluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab1_Naomi_TekluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1219C93A2D5EAB720029B48F /* Lab1_Naomi_TekluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_Naomi_TekluUITests.swift; sourceTree = "<group>"; };
+		1219C93C2D5EAB720029B48F /* Lab1_Naomi_TekluUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_Naomi_TekluUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1219C9192D5EAB700029B48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1219C9292D5EAB720029B48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1219C9332D5EAB720029B48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1219C9132D5EAB700029B48F = {
+			isa = PBXGroup;
+			children = (
+				1219C91E2D5EAB700029B48F /* Lab1_Naomi_Teklu */,
+				1219C92F2D5EAB720029B48F /* Lab1_Naomi_TekluTests */,
+				1219C9392D5EAB720029B48F /* Lab1_Naomi_TekluUITests */,
+				1219C91D2D5EAB700029B48F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1219C91D2D5EAB700029B48F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1219C91C2D5EAB700029B48F /* Lab1_Naomi_Teklu.app */,
+				1219C92C2D5EAB720029B48F /* Lab1_Naomi_TekluTests.xctest */,
+				1219C9362D5EAB720029B48F /* Lab1_Naomi_TekluUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1219C91E2D5EAB700029B48F /* Lab1_Naomi_Teklu */ = {
+			isa = PBXGroup;
+			children = (
+				1219C91F2D5EAB700029B48F /* Lab1_Naomi_TekluApp.swift */,
+				1219C9212D5EAB700029B48F /* ContentView.swift */,
+				1219C9232D5EAB710029B48F /* Assets.xcassets */,
+				1219C9252D5EAB710029B48F /* Preview Content */,
+			);
+			path = Lab1_Naomi_Teklu;
+			sourceTree = "<group>";
+		};
+		1219C9252D5EAB710029B48F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1219C9262D5EAB710029B48F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1219C92F2D5EAB720029B48F /* Lab1_Naomi_TekluTests */ = {
+			isa = PBXGroup;
+			children = (
+				1219C9302D5EAB720029B48F /* Lab1_Naomi_TekluTests.swift */,
+			);
+			path = Lab1_Naomi_TekluTests;
+			sourceTree = "<group>";
+		};
+		1219C9392D5EAB720029B48F /* Lab1_Naomi_TekluUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1219C93A2D5EAB720029B48F /* Lab1_Naomi_TekluUITests.swift */,
+				1219C93C2D5EAB720029B48F /* Lab1_Naomi_TekluUITestsLaunchTests.swift */,
+			);
+			path = Lab1_Naomi_TekluUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1219C91B2D5EAB700029B48F /* Lab1_Naomi_Teklu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1219C9402D5EAB720029B48F /* Build configuration list for PBXNativeTarget "Lab1_Naomi_Teklu" */;
+			buildPhases = (
+				1219C9182D5EAB700029B48F /* Sources */,
+				1219C9192D5EAB700029B48F /* Frameworks */,
+				1219C91A2D5EAB700029B48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab1_Naomi_Teklu;
+			productName = Lab1_Naomi_Teklu;
+			productReference = 1219C91C2D5EAB700029B48F /* Lab1_Naomi_Teklu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1219C92B2D5EAB720029B48F /* Lab1_Naomi_TekluTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1219C9432D5EAB720029B48F /* Build configuration list for PBXNativeTarget "Lab1_Naomi_TekluTests" */;
+			buildPhases = (
+				1219C9282D5EAB720029B48F /* Sources */,
+				1219C9292D5EAB720029B48F /* Frameworks */,
+				1219C92A2D5EAB720029B48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1219C92E2D5EAB720029B48F /* PBXTargetDependency */,
+			);
+			name = Lab1_Naomi_TekluTests;
+			productName = Lab1_Naomi_TekluTests;
+			productReference = 1219C92C2D5EAB720029B48F /* Lab1_Naomi_TekluTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1219C9352D5EAB720029B48F /* Lab1_Naomi_TekluUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1219C9462D5EAB720029B48F /* Build configuration list for PBXNativeTarget "Lab1_Naomi_TekluUITests" */;
+			buildPhases = (
+				1219C9322D5EAB720029B48F /* Sources */,
+				1219C9332D5EAB720029B48F /* Frameworks */,
+				1219C9342D5EAB720029B48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1219C9382D5EAB720029B48F /* PBXTargetDependency */,
+			);
+			name = Lab1_Naomi_TekluUITests;
+			productName = Lab1_Naomi_TekluUITests;
+			productReference = 1219C9362D5EAB720029B48F /* Lab1_Naomi_TekluUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1219C9142D5EAB700029B48F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1219C91B2D5EAB700029B48F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					1219C92B2D5EAB720029B48F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1219C91B2D5EAB700029B48F;
+					};
+					1219C9352D5EAB720029B48F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1219C91B2D5EAB700029B48F;
+					};
+				};
+			};
+			buildConfigurationList = 1219C9172D5EAB700029B48F /* Build configuration list for PBXProject "Lab1_Naomi_Teklu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1219C9132D5EAB700029B48F;
+			productRefGroup = 1219C91D2D5EAB700029B48F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1219C91B2D5EAB700029B48F /* Lab1_Naomi_Teklu */,
+				1219C92B2D5EAB720029B48F /* Lab1_Naomi_TekluTests */,
+				1219C9352D5EAB720029B48F /* Lab1_Naomi_TekluUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1219C91A2D5EAB700029B48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1219C9272D5EAB710029B48F /* Preview Assets.xcassets in Resources */,
+				1219C9242D5EAB710029B48F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1219C92A2D5EAB720029B48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1219C9342D5EAB720029B48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1219C9182D5EAB700029B48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1219C9222D5EAB700029B48F /* ContentView.swift in Sources */,
+				1219C9202D5EAB700029B48F /* Lab1_Naomi_TekluApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1219C9282D5EAB720029B48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1219C9312D5EAB720029B48F /* Lab1_Naomi_TekluTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1219C9322D5EAB720029B48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1219C93B2D5EAB720029B48F /* Lab1_Naomi_TekluUITests.swift in Sources */,
+				1219C93D2D5EAB720029B48F /* Lab1_Naomi_TekluUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1219C92E2D5EAB720029B48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1219C91B2D5EAB700029B48F /* Lab1_Naomi_Teklu */;
+			targetProxy = 1219C92D2D5EAB720029B48F /* PBXContainerItemProxy */;
+		};
+		1219C9382D5EAB720029B48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1219C91B2D5EAB700029B48F /* Lab1_Naomi_Teklu */;
+			targetProxy = 1219C9372D5EAB720029B48F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1219C93E2D5EAB720029B48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1219C93F2D5EAB720029B48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1219C9412D5EAB720029B48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab1_Naomi_Teklu/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LS34PF4B5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naomitek.Lab1-Naomi-Teklu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1219C9422D5EAB720029B48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab1_Naomi_Teklu/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LS34PF4B5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naomitek.Lab1-Naomi-Teklu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1219C9442D5EAB720029B48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LS34PF4B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naomitek.Lab1-Naomi-TekluTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab1_Naomi_Teklu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab1_Naomi_Teklu";
+			};
+			name = Debug;
+		};
+		1219C9452D5EAB720029B48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LS34PF4B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naomitek.Lab1-Naomi-TekluTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab1_Naomi_Teklu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab1_Naomi_Teklu";
+			};
+			name = Release;
+		};
+		1219C9472D5EAB720029B48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LS34PF4B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naomitek.Lab1-Naomi-TekluUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lab1_Naomi_Teklu;
+			};
+			name = Debug;
+		};
+		1219C9482D5EAB720029B48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LS34PF4B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naomitek.Lab1-Naomi-TekluUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lab1_Naomi_Teklu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1219C9172D5EAB700029B48F /* Build configuration list for PBXProject "Lab1_Naomi_Teklu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1219C93E2D5EAB720029B48F /* Debug */,
+				1219C93F2D5EAB720029B48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1219C9402D5EAB720029B48F /* Build configuration list for PBXNativeTarget "Lab1_Naomi_Teklu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1219C9412D5EAB720029B48F /* Debug */,
+				1219C9422D5EAB720029B48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1219C9432D5EAB720029B48F /* Build configuration list for PBXNativeTarget "Lab1_Naomi_TekluTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1219C9442D5EAB720029B48F /* Debug */,
+				1219C9452D5EAB720029B48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1219C9462D5EAB720029B48F /* Build configuration list for PBXNativeTarget "Lab1_Naomi_TekluUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1219C9472D5EAB720029B48F /* Debug */,
+				1219C9482D5EAB720029B48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1219C9142D5EAB700029B48F /* Project object */;
+}
